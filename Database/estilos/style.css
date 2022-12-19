@@ -1,0 +1,182 @@
+body {
+    font-family: 'Secular One', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    background: url(../imagenes/fondo1.jpg);
+
+}
+
+nav {
+    width: 100%; /* Ancho */
+    height: 160px; /* Alto */
+    background-color: rgba(199, 255, 227, 0.883);
+}
+
+nav ul li {
+
+        list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px;
+}
+
+nav ul li:hover {
+    background-color: rgb(138, 255, 206);
+}
+
+.img-logo{
+    width: 180px;
+    padding: -200px;
+    padding-left: 2%;
+}
+
+nav ul {
+    display: inline-flex;
+    position: relative;
+    top: -50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+h2,
+figure,
+ul {
+    margin: 0;
+
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+/* ESTILOS SECCION 1 */
+.seccion1 {
+    background-color: rgba(199, 255, 227, 0.883);
+
+}
+
+.video {
+    width: 50%;
+    padding: 5px;
+}
+
+.texto1 {
+    width: 45%;
+    padding: 5px;
+    vertical-align: top;
+}
+
+article {
+    padding: 20%;
+    background-color: rgba(255, 255, 255, 0.883);
+}
+
+article h2 {
+    border-bottom: 1px solid black;
+
+}
+
+.video, .texto1 {
+    display: inline-block;
+}
+
+.boton{
+    text-align: center;
+    background-color: rgba(138, 255, 227, 0.883);
+    padding: 10px;
+}
+
+.boton a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.boton:hover {
+    background: rgba(199, 255, 227, 0.883) ;
+}
+
+/* ARTICLES */
+
+section{
+    background-color: rgba(199, 255, 227, 0.883);
+    padding: 15px;
+}
+
+.img-art{
+    max-width: 100%;
+    text-align: center;
+}
+
+.cont-art{
+    width: 100%;
+    vertical-align: top;
+    text-align: justify;
+}
+
+section h1 {
+    text-align: center;
+
+}
+
+section h2 {
+    border-bottom: 1px solid black;
+    
+}
+
+footer{
+background-color: rgba(199, 255, 227, 0.883);
+color: rgb(3, 186, 110);
+line-height: 40px;
+text-align: center;
+padding: 50px;
+}
+
+footer div a{
+text-decoration: none;
+color: rgb(3, 186, 110);
+}
+
+.galeria{
+    margin: 10px 20px;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+
+}
+
+.galeria img{
+    width: 60%;
+    height: auto;
+    text-align: center;
+}
+
+.galeria:hover{
+    border: 1px solid rgba(199, 255, 227, 0.883);
+    text-align: center;
+    
+}
+
+.nombre{
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+section h3{
+    size: 5%;
+    border-bottom: 2px solid black;
+
+}
+
+.team  {
+    text-align: center;
+}
+
+
+
